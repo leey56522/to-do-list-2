@@ -1,0 +1,85 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: #21325E;
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #F1D00A;
+  font-size: 10rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+form {
+  max-width: 100%;
+  width: 400px;
+  box-shadow: 0 4px 10px rbga(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.input::placeholder{
+  color: #c7c6c6;
+}
+
+.todos {
+  background-color: #3E497A;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.todos li {
+  border-top: 2px solid #21325E;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: #F0F0F0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.todos li.completed {
+  color: #5f6ba0;
+  text-decoration: line-through;
+}
+
+small {
+  color: #5f6ba0;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
