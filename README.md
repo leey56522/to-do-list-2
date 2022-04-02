@@ -8,5 +8,5 @@ To delete the task, the user can right click it.
 
 The color theme is navy and yellow to convey calm image
 
-## Things I learned#
+## Things I learned
 Storing and manipulating data in local storage
