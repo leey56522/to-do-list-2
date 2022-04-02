@@ -6,5 +6,5 @@ The user can left click each task to toggle as complete or incomplete. Comolete 
 To deletete the task, the user can right click it.
 
 
-#Things I learned
+##Things I learned
 Storing and manipulating data in local storage
